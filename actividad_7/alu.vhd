@@ -20,4 +20,4 @@ begin --unsigned (y)?=0
         std_logic_vector(unsigned(a)+unsigned(b)) when "0001";
         std_logic_vector(shift_left(unsigned(a),
             to_integer(unsigned(b(3 downto 0))))) when "0010"|"0011",   
-    s
+    
